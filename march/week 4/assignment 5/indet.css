@@ -1,0 +1,32 @@
+#id1{
+    padding: 2px;
+    background-color: skyblue;
+    border: 2px solid rgb(197, 25, 25);
+}
+#search{
+    margin-left: 100px;
+}
+#geek{
+    text-align: center;
+}
+#search {
+    margin-left: 1000px;
+    margin-bottom: 10px;
+}
+#id2{
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 3px;
+    width: fit-content;
+    border: 2px dotted black;
+    background-color: rgb(168, 223, 182);
+}
+#form{
+    text-align: center;
+    text-decoration: underline;
+}
+.divi{
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(220, 230, 223);
+}
