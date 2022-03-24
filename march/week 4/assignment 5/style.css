@@ -1,0 +1,42 @@
+body{
+    background: url(https://images.pexels.com/photos/762686/pexels-photo-762686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+}
+.head{
+  
+    
+}
+#header{
+    text-align: center;
+    border: 1px solid black;
+    color: rgba(228, 21, 21, 0.986);
+
+}
+#search{
+   margin-right: 700px;
+}
+#button{
+   margin-left: 1200px;
+}
+.details{
+    border: 1px dotted red;
+    margin: 1px;
+    color: rgb(248, 14, 123);
+}
+
+#heading1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(21, 35, 228, 0.986);
+    
+}
+#heading2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(245, 6, 173);
+}
+.books{
+   color: rgb(155, 12, 131);
+}
+.para{
+    color:rgb(25, 81, 201);
+}
