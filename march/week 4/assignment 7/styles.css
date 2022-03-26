@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+header{
+    border-bottom: 2px solid lightgreen;
+}
+#heading{
+    text-align: center;
+    padding: 5px;
+    color: rgb(69, 160, 69);
+}
+
+#navigation{
+    
+    
+}
+
+.button{
+    margin-left: 1200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.container{
+    margin-top: 10px;
+   
+    display:flex;
+    justify-content: space-around;
+
+    flex-direction: row;
+}
+
+.video, .image{
+
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.view{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
