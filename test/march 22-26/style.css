@@ -1,0 +1,43 @@
+
+.main{
+    
+    background-color: rgb(105, 211, 105);
+    width: 700px;
+}
+#table{
+    display: flex;
+    justify-content: center;
+}
+.tableHeading{
+    border: 1px solid black;
+}
+.m1 , .m2{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+#m2{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+#morning{
+   display: inline-block
+   
+}
+.meet{
+    border: 1px solid black;
+}
+.meeting{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 15px;
+    
+}
+#pre, #res, #free{
+    border: 1px solid black ;
+    text-align: center;
+}
+
