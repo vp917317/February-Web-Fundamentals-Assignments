@@ -1,0 +1,99 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    border-bottom: 2px dotted red;
+}
+
+.imp{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#head{
+    
+    color: rgb(2, 119, 2);
+    text-decoration: underline;
+}
+
+.nav{
+    padding-left: 500px;
+    margin-left: 700px;
+}
+
+.menus{
+    padding: 5px;
+    
+}
+
+#submit{
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(24, 194, 24);
+    color: white;
+    width: 200px;
+}
+
+#heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.feedback{
+    display: flex;
+    justify-items: center;
+}
+
+.form{
+    border: 5px solid white;
+    border-left: 5px solid lightseagreen;
+    border-right: 5px solid red;
+    margin-left: 600px;
+    padding: 50px;
+}
+
+#name,#PhoneNumber,#Email, #Password{
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+   
+}
+
+#Password{
+    margin-bottom: 30px;
+}
+
+#date{
+    margin-bottom: 30px;
+}
+
+#favorite{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+#person{
+    margin-top: 10px ;
+}
+
+#hr{
+    color: antiquewhite;
+}
+
+#checkbox{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#footer{
+    border: 2px solid ;
+    border-top: 2px solid lightgreen;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+
+}
