@@ -1,0 +1,83 @@
+body{
+  background-color: khaki;    
+}
+#page{
+    text-align: center;
+    text-shadow: 4px 4px 4px red;
+    text-decoration: underline;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menus{
+    padding: 10px;
+}
+a.menus:hover{
+    color: red;
+}
+
+.gallery{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image{
+    padding: 30px;
+}
+
+a.btn:hover{
+    color: red;
+}
+
+.button{
+   margin-left: 50px;
+   background-color: antiquewhite;
+   border-radius: 30px;
+
+   animation-name: chathere;
+   animation-duration: 10s;
+   animation-iteration-count: 10;
+   animation-direction: linear;
+}
+
+@keyframes chathere {
+    0% {
+        background-color: bisque;
+        left:0px;
+        top:0px;
+    }
+    20% {
+        background-color: red;
+        left:100px;
+        top:0px;
+    }
+
+    40%{
+        background-color: green;
+        left:100px;
+        top:0px;
+    }
+
+    80%{
+        background-color: blue;
+        left:0px;
+        top:100px;
+    }
+
+    100%{
+        background-color: rgb(18, 192, 175);
+        left:0px;
+        top:0px;
+    }
+}
+
+.btn{
+    color: black;
+    border-radius: 40px;
+
+}
+

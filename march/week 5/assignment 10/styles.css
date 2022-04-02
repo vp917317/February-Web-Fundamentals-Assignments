@@ -1,0 +1,51 @@
+body{
+    background: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container{
+    width: 1000px;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+}
+.gridText{
+    border: 2px solid red;
+    grid-column: 4 / span 1;
+    grid-row: 6;
+}
+
+
+.gridForm{
+    background-color: khaki;
+    padding-left: 20px;
+    grid-column: 8 / span 6;
+    grid-row: 3 / span 12;
+}
+
+
+
+.head{
+    grid-column: 6 / span 12;
+    grid-row: 3;
+    text-align: center;
+}
+
+.para{
+    grid-column: 6 / span 6;
+    grid-row: 4;
+    text-align: center;
+}
+
+.email, .email1, .name, .name1, .name2, .name3, .pass, .pass2, .date, .dategrid, .dategrid1, .dategrid2{
+    margin-bottom: 5px;
+}
+
+
+
+.button{
+    background-color: rgb(10, 164, 185);
+    color: white;
+    text-align: center;
+    
+    
+}
