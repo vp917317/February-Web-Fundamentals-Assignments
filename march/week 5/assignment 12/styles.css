@@ -18,6 +18,14 @@ a.menus:hover{
     color: red;
 }
 
+#title{
+    text-align: center;
+    color: rgb(18, 187, 130);
+    text-decoration: underline;
+    text-shadow: 4px 4px 4px  red;
+    
+}
+
 .gallery{
     margin-bottom: 20px;
     display: flex;
@@ -28,6 +36,7 @@ a.menus:hover{
 .image{
     padding: 30px;
 }
+
 
 a.btn:hover{
     color: red;
@@ -79,5 +88,9 @@ a.btn:hover{
     color: black;
     border-radius: 40px;
 
+}
+
+a.a:hover{
+    color: red;
 }
 
