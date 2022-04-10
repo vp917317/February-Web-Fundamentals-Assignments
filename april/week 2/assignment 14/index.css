@@ -1,5 +1,24 @@
-.p1{
-    border: 2px solid red;
-    padding: 4px;
-    background-color: khaki;
+.one{
+    background-color: green;
+    color: white;
+}
+
+.two{
+    background-color: red;
+    color: white;
+}
+
+.three{
+    background-color: black;
+    color: white;
+}
+
+.four{
+    background-color: yellow;
+    color: white;
+}
+
+.five{
+    background-color: orange;
+    color: white;
 }

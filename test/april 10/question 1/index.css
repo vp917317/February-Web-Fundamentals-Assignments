@@ -9,6 +9,7 @@
 
 .ty{
     border-radius: 10px;
+    text-decoration: underline;
 }
 .button{
     border-radius: 20px;
