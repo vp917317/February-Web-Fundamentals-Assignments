@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1></h1>
+    <div id="cont" class="container">
+      <div class="head">
+        <h1 class="head">Login Your Account</h1>
+      </div>
+      <form>
+        <div class="getforms">
+          <label for="name">Enter your Name</label>
+          <input type="text" id="name" placeholder="enter name" />
+          <small id="name-small">This is mandatory</small>
+        </div>
+        <div class="getforms">
+          <label for="email">Enter your Email</label>
+          <input type="email" id="email" placeholder="enter email" />
+          <small id="name-email">This is mandatory</small>
+        </div>
+        <div class="getforms">
+          <label for="password">Enter your Password</label>
+          <input type="text" id="password" placeholder="enter Password" />
+          <small id="name-password"
+            >password should contains upper and lower case letters</small
+          >
+        </div>
+        <div class="getforms">
+          <label for="confirmpass">Confirm Password</label>
+          <input
+            type="text"
+            id="confirmpass"
+            placeholder="enter password again"
+          />
+          <small id="name-confirmpass"
+            >password and confirm password aree not same</small
+          >
+        </div>
+
+        <div class="flexbtn">
+          <button type="submit" id="button" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

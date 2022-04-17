@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    border: 1px solid red;
+    width: 500px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+
+.getforms{
+    padding-top: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+}
+
+label{
+    display: block;
+    font-size: 10px;
+    color: blue;
+}
+
+.flexbtn{
+    margin-top: 10px;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.error{
+    border: 2px solid rgb(69, 10, 4);
+}
+
+.success{
+    border: 2px solid green;
+}
+
+small{
+    color: salmon;
+    font-size: 10px;
+    visibility: hidden;
+}
+
+small.display{
+    visibility: visible;
+}
+
+.one{
+    background-color: blueviolet;
+    border: 2px solid red;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.two{
+    background-color: blue;
+    border: 2px solid red;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+}
