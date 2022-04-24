@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.maincard{
+    width: 14vw;
+    height: 54vh;
+    margin: 30px 10px 0px 10px;
+    background-color: rgb(231, 105, 126);
+    box-shadow: 0 0 10px;
+    padding: 8px;
+}
+.image{
+   margin-top: 20px;
+   border-radius: 50%;
+   
+}
+.name{
+    padding: 40px 10px 30px 10px;
+    text-align: center;
+    color: white;
+}
+

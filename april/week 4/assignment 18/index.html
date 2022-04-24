@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            text-align: center;
+            border: 2px solid;
+            width: 50%;
+            margin-left: 400px;
+            background-color: aliceblue;
+            
+        }
+
+        hr{
+            background-color: rgb(3, 126, 126);
+            width: 100px;
+            height: 5px;
+        }
+        .card{
+            margin: 50px;
+            padding: 20px;
+          box-shadow: 0 0 10px ;
+          background-color: azure;
+        }
+
+      #image{
+          border-radius: 50%;
+          border-right: 10px solid rgb(39, 148, 191);
+      }
+      .name{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+      .job{
+          color: rgb(23, 167, 167);
+          font-weight: 300;
+          text-transform: uppercase;
+}
+.btn{
+    all: unset;
+    padding: 5px 10px;
+    font-size: larger;
+    cursor: pointer;
+    
+    border-radius: 5px;
+    color: rgb(11, 109, 194);
+
+}
+
+.btn:hover{
+    background-color: rgb(25, 67, 67);
+
+}
+
+.button-group{
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+      
+      
+        
+    </style>
+</head>
+<body>
+    <main class="main center">
+        <section class="container center column">
+            <div class="title">
+                <h1>Our Reviews</h1>
+                <hr id="hr">
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img id="image" src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg" width="250px" height="250px"/>
+                </div>
+                <h4 class="name"><b>my name</b></h4>
+                <h4 class="job">JOB</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illo repellendus excepturi amet fugit, quia voluptatum quam perferendis libero aelit non rupti vel impedit? Quibusdam, quidem a.</p>
+                <div class="button-group">
+                    <button class="btn" id="prev"> < </button>
+                    <button class="btn" id="next"> > </button>
+                </div>
+                <button class="btn" id="random">Surprise me</button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const reviews = [
+    {
+      id: 1,
+      name: "susan smith",
+      job: "web developer",
+      img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+      text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    },
+    {
+      id: 2,
+      name: "anna johnson",
+      job: "web designer",
+      img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+      text: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+    },
+    {
+      id: 3,
+      name: "peter jones",
+      job: "intern",
+      img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+      text: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+    },
+    {
+      id: 4,
+      name: "bill anderson",
+      job: "the boss",
+      img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+      text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+    },
+  ];
+
+let indexToBeDisplayed = 0
+let indexToBeDisplayed1 = Math.floor(Math.random() * 3)
+const currentElement = reviews[indexToBeDisplayed]
+
+const imageElement = document.querySelector("#image")
+const nameElement = document.querySelector(".name")
+const jobElement = document.querySelector(".job")
+const textElement = document.querySelector(".text")
+
+const nextBtn = document.querySelector("#next")
+const prevBtn = document.querySelector("#prev")
+const randomBtn = document.querySelector("#random")
+
+
+function displayOnScreen(event){
+    nameElement.innerText = event.name
+    jobElement.innerText = event.job
+    textElement.innerText = event.text
+    imageElement.src = event.img
+}
+displayOnScreen(currentElement)
+
+nextBtn.addEventListener('click', displayNext)
+function displayNext(){
+    if(indexToBeDisplayed === reviews.length-1){
+        indexToBeDisplayed = 0
+    } else{
+        indexToBeDisplayed++
+    }
+    displayOnScreen(reviews[indexToBeDisplayed])
+}
+
+prevBtn.addEventListener('click', displayPrev)
+function displayPrev(){
+    if(indexToBeDisplayed === 0){
+        indexToBeDisplayed = reviews.length-1
+    } else{
+        indexToBeDisplayed--
+    }
+    displayOnScreen(reviews[indexToBeDisplayed])
+}
+
+randomBtn.addEventListener('click', displayRandom)
+
+function displayRandom(){
+    indexToBeDisplayed1
+   displayOnScreen(reviews[indexToBeDisplayed1])
+}
+
+
+
+
+
+    </script>
+</body>
+</html>
