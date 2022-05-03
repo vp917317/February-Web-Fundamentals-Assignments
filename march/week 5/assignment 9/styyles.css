@@ -3,7 +3,7 @@
     height: 90vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    border: 2px solid green;
+    
     background-color: white;
 }
 
@@ -16,12 +16,12 @@
 }
 
 .a{
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 7;
     grid-row: 1;
 }
 
 .b{
-    grid-column: 7 / span 3;
+    grid-column: 8 / span 3;
     grid-row: 1;
 }
 

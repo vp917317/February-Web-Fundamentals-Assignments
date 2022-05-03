@@ -1,0 +1,111 @@
+le>
+        *{
+            box-sizing: border-box;
+        }
+        @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+        .mainContainer{
+            width: 100vw;
+            height: 100vh;
+        }
+        body{
+            margin: 0px;
+            background-color: rgba(218, 218, 18, 0.762);
+        }
+        .form{
+            margin-top: 50px;
+            text-align: center;
+        }
+        #input{
+            width: 500px;
+            height: 25px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px;
+        }
+        button{
+            width: 70px;
+            height: 30px;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            background-color: rgb(47, 24, 179);
+        }
+        .main{
+            margin: 40px 20px 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card{
+            width: 400px;
+            padding: 10px;
+            text-align: center;
+            color: aliceblue;
+            background-color: rgb(71, 183, 133);
+            margin: 20px;
+            box-shadow: 0 0 15px blue;
+        }
+        .ahref{
+            text-decoration: none;
+            color: khaki;
+            cursor: pointer;
+        }
+        .ahref:hover{
+            border: 1px dotted lightgreen;
+        }
+        #img{
+            margin-top: 10px;
+        }
+        .h3{
+            color: blue;
+        }
+        .dish-name{
+           
+            color: rgb(149, 23, 71);
+        }
+        .name{
+            display: flex;
+        }
+
+    .dishTypes{
+        width: 100vw;
+        height: 15vh;
+        background-color: rgb(49, 163, 89);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .dishes{
+        width: 100px;
+        height: 35px;
+        box-shadow: 0 0 10px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: larger;
+        border-radius: 10px;
+        background-color: rgb(215, 62, 141);
+        place-self: center;
+    }
+
+    .logo{
+        margin-top: 5px;
+        width: 10vw;
+        height: 8vh;
+    }
+
+    #imgLogo{
+        border-radius: 50%;
+    }
+
+    .ingredients{
+        cursor:copy;
+    }
+
+    
